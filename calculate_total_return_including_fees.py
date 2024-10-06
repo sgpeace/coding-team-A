@@ -87,4 +87,4 @@ result_table['Final Capital (%)'] = (result_table['Final Capital (KRW)'] / initi
 print(result_table)
 
 # 필요한 경우 엑셀 파일로 저장
-result_table.to_excel('final_capital.xlsx', index=False)
+result_table.to_excel('final_capital_including_fees.xlsx', index=False)
